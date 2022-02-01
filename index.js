@@ -13,3 +13,5 @@ const sumInpun = () => {
 btn.addEventListener('click', sumInpun());
 
 inputResult.innerHTML = result;
+// или это
+//inputResult.innerHTML = sumInpun();
