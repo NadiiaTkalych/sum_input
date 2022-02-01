@@ -6,10 +6,10 @@ const inputValue1 = Number(document.getElemetnById('input-1').value),
 
 let result;
 
-const countingInpun = () => {
+const sumInpun = () => {
    result = inputValue1 + inputValue2 + inputValue3
 }
 
-btn.addEventListener('click', countingInpun());
+btn.addEventListener('click', sumInpun());
 
 inputResult.innerHTML = result;
