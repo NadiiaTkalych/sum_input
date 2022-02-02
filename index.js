@@ -10,6 +10,14 @@ btn.addEventListener('click', () => {
    inputResult.value = strToNum(inputValue1) + strToNum(inputValue2) + strToNum(inputValue3)
 });
 
+//или так (^~^)
+document.getElementById('btn').addEventListener('click', () => {
+   document.getElementById('input-result').value = Number(document.getElementById('input-1').value) + 
+      Number(document.getElementById('input-1').value) + 
+      Number(document.getElementById('input-1').value)
+});
+
+//старый код
 // const inputValue1 = Number(document.getElemetnById('input-1').value),
 //   inputValue2 = Number(document.getElemetnById('input-2').value),
 //   inputValue3 = Number(document.getElemetnById('input-3').value),
